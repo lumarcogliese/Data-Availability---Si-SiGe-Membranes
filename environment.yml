@@ -19,7 +19,7 @@ dependencies:
   - openpyxl
   - sympy
 
-  # System libs that are safe cross-platform (conda will resolve)
+  # System libs that are safe cross-platform 
   - zeromq
   - pyzmq
 
@@ -28,7 +28,6 @@ dependencies:
   - pip:
       - tmm-fast==0.2.1
       - gymnasium==1.2.0
-      # If you really need PyTorch CPU, uncomment one of these:
-      # - torch==2.4.*            # (CPU wheels from PyPI)
+      - torch==2.4.*            # (CPU wheels from PyPI)
       # or: - torch==2.4.*+cpu    # (older naming; only if needed)
 
